@@ -1,0 +1,43 @@
+/* AppDownload.css */
+.app-download {
+    text-align: center;
+    padding: 2rem;
+   
+    border-radius: 8px;
+  
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .app-download h1 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  .app-store, .play-store {
+    width: 150px;
+    height: auto;
+    margin: 0.5rem;
+    display: inline-block;
+  }
+  
+  .app-store {
+    vertical-align: middle;
+  }
+  
+  .play-store {
+    vertical-align: middle;
+  }
+  
+  /* Optional: Add responsiveness */
+  @media (max-width: 768px) {
+    .app-store, .play-store {
+      width: 120px;
+    }
+    
+    .app-download h1 {
+      font-size: 1.5rem;
+    }
+  }
+  
